@@ -324,8 +324,8 @@ QtPy @ file:///opt/conda/conda-bld/qtpy_1649073884068/work
 questionary==1.10.0
 queuelib==1.5.0
 randomname==0.1.5
-rasa==3.3.3
-rasa-sdk==3.3.0
+rasa==2.8.1
+rasa-sdk==2.8.1
 redis==4.4.0
 regex==2022.3.2
 requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
