@@ -1,4 +1,5 @@
-FROM rasa/rasa
+FROM docker/whalesay:latest
+LABEL Name=rasa Version=0.0.1
 USER root
 ENV BOT_ENV=production
 COPY . /var/www
