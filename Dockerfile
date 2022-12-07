@@ -15,6 +15,6 @@ RUN apt-get install -yqq python
 RUN apt-get -yqq install python-pip
 
 #RUN pip install -r requirements.txt
-RUN rasa train
-#CMD ["sh", "-c", "/usr/games/fortune -a | cowsay"]
+#RUN rasa train
+CMD ["sh", "-c", "/usr/games/fortune -a | cowsay"]
 ENTRYPOINT [ "rasa", "run", "-p", "8080"]
