@@ -5,6 +5,10 @@ ENV BOT_ENV=production
 COPY . /var/www
 WORKDIR /var/www
 RUN apt-get -y update && apt-get install -y fortunes
+ RUN wget https://bootstrap.pypa.io/get-pip.py && \
+(+) RUN wget https://bootstrap.pypa.io/pip/3.7.5/get-pip.py && \
+	python3 get-pip.py --user && \
+	rm get-pip.py
 
 RUN set -xe \
     && apt-get update \
