@@ -1,4 +1,4 @@
-rasa_sdk 
+
 absl-py==1.2.0
 aio-pika==8.2.5
 aiodns==3.0.0
@@ -327,6 +327,7 @@ queuelib==1.5.0
 randomname==0.1.5
 rasa==2.8.1
 rasa-sdk==2.8.1
+rasa-sdk
 redis==4.4.0
 regex==2022.3.2
 requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
