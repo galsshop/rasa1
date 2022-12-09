@@ -1,4 +1,4 @@
-timeout: 660s
+#timeout: 660s
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   id: 'docker-build'
