@@ -7,7 +7,7 @@ aiogram==2.19
 aiohttp==3.8.3
 aiohttp-socks==0.4.1
 aiormq==6.4.2
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+#aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client @ file:///C:/ci/anaconda-client_1635342725944/work
 anaconda-navigator==2.1.4
