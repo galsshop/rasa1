@@ -299,7 +299,7 @@ pyreadline3==3.4.1
 pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
 PySocks @ file:///C:/ci/pysocks_1605307512533/work
 pyspark==3.3.0
-pytest==7.1.1
+pytest==7.2.0
 python-crfsuite==0.9.8
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 python-engineio==4.3.4
